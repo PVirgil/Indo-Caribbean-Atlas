@@ -1,0 +1,56 @@
+[
+  {
+    "id": "NATT-GR",
+    "name": "National Archives of Trinidad and Tobago — General Registers of Indian Indentureship",
+    "kind": "Primary archival fonds / finding aid",
+    "coverage": "Trinidad, 1845–1917",
+    "url": "https://www.natt.gov.tt/node/274",
+    "summary": "Seventeen large bound general-register volumes covering 298 ships, with registration number, immigrant name, father's name, sex, age, estate and later details such as recorded caste and Indian village.",
+    "rights": "Institutional source; follow repository reproduction terms."
+  },
+  {
+    "id": "NATT-IM2",
+    "name": "NATT — Indian Indentureship Records, General Registers (TT NATT IM 2)",
+    "kind": "Primary archival fonds",
+    "coverage": "Trinidad, 1845–1917",
+    "url": "https://mail.natt.gov.tt/node/133",
+    "summary": "Chronological registers organized by ship; remarks may record birth, death, illness, return to India or land, with later registers adding native place and other descriptors.",
+    "rights": "Finding aid reports no restriction on access; reproduction terms should still be checked."
+  },
+  {
+    "id": "NATT-SHARED",
+    "name": "NATT — Shared Memory: Indian Indentureship Records",
+    "kind": "Primary archival collection overview",
+    "coverage": "Trinidad",
+    "url": "https://natt.gov.tt/node/68",
+    "summary": "Describes general, estate and ship registers and the kinds of genealogical and migration fields preserved in them.",
+    "rights": "Institutional contextual source."
+  },
+  {
+    "id": "NA-SUR",
+    "name": "Nationaal Archief — Hindostani contract labourers in Suriname",
+    "kind": "Primary-source research index",
+    "coverage": "Suriname, 1873–1916",
+    "url": "https://www.nationaalarchief.nl/onderzoeken/zoekhulpen/hindostaanse-contractarbeiders-in-suriname-1873-1916",
+    "summary": "Research guide and index for tens of thousands of migrants, including personal/family information, voyage, origin and plantation/contract history.",
+    "rights": "Check index/database reuse terms before bulk republication."
+  },
+  {
+    "id": "UNESCO",
+    "name": "UNESCO Memory of the World — Records of Indian Indentured Labourers",
+    "kind": "Documentary-heritage authority",
+    "coverage": "Guyana, Suriname, Trinidad and Tobago, Fiji, Saint Vincent and the Grenadines",
+    "url": "https://www.unesco.org/en/memory-world/lac/records-indian-indentured-labourers-1845-1917",
+    "summary": "International documentary-heritage context for major indentureship collections and their genealogical significance.",
+    "rights": "Underlying repositories and items retain their own rights."
+  },
+  {
+    "id": "GUYANA",
+    "name": "National Archives of Guyana — Indian Immigration",
+    "kind": "Primary archival collection guide",
+    "coverage": "British Guiana / Guyana",
+    "url": "https://nationalarchives.gov.gy/indian-immigration/",
+    "summary": "Collection guide for immigration records including certificates, ship-related material, births and administrative correspondence.",
+    "rights": "Follow National Archives of Guyana access and reproduction terms."
+  }
+]
