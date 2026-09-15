@@ -1,0 +1,1 @@
+import people from "@/data/people.json";import sources from "@/data/sources.json";import voyages from "@/data/voyages.json";import timeline from "@/data/timeline.json";export {people,sources,voyages,timeline};
