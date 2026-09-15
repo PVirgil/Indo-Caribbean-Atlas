@@ -1,0 +1,34 @@
+[
+  {
+    "ship": "Lalla Rookh",
+    "route": "Calcutta → Paramaribo",
+    "departure": "26 Feb 1873",
+    "arrival": "5 Jun 1873",
+    "context": "Among the earliest direct 1873 voyages represented in the Suriname contract-labour index.",
+    "source": "NA-SUR"
+  },
+  {
+    "ship": "Bengal",
+    "route": "Calcutta → Paramaribo",
+    "departure": "15 May 1873",
+    "arrival": "8 Jul 1873",
+    "context": "Voyage represented by multiple linked individual contract records in the archival index.",
+    "source": "NA-SUR"
+  },
+  {
+    "ship": "Kate Kellock",
+    "route": "Calcutta → Paramaribo",
+    "departure": "16 Oct 1873",
+    "arrival": "18 Jan 1874",
+    "context": "A later voyage represented in the Suriname archival index.",
+    "source": "NA-SUR"
+  },
+  {
+    "ship": "Ganges",
+    "route": "India → Trinidad",
+    "departure": "—",
+    "arrival": "1917",
+    "context": "NATT identifies the Ganges as the last ship in the Trinidad indentureship arrival series.",
+    "source": "NATT-GR"
+  }
+]
