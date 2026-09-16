@@ -5,7 +5,7 @@ html,body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .mobileMenu{display:none;background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.mobileMenuInner{display:flex;flex-direction:column;padding-top:8px;padding-bottom:8px}.mobileMenuInner a{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line);font:700 14px Arial,sans-serif}.mobileMenuInner a:last-child{border:0}
 .linkArrow{width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-right:4px}
 @media(max-width:850px){.menuButton{display:flex}.mobileMenu.open{display:block}.navin{min-height:64px}.brand{font-size:14px}}
-@media(max-width:420px){.shell{padding-left:18px;padding-right:18px}.brand{font-size:12px}.menuButton{padding:9px 10px;font-size:11px}}
+@media(max-width:420px){.shell{padding-left:18px;padding-right:18px}.brand{font-size:12px}.menuButton{padding:9px 10px;font-size:11px}
 @media screen and (orientation: landscape) and (max-height: 600px) {
 
   html {
