@@ -6,10 +6,70 @@ html,body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .linkArrow{width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-right:4px}
 @media(max-width:850px){.menuButton{display:flex}.mobileMenu.open{display:block}.navin{min-height:64px}.brand{font-size:14px}}
 @media(max-width:420px){.shell{padding-left:18px;padding-right:18px}.brand{font-size:12px}.menuButton{padding:9px 10px;font-size:11px}}
-@media screen and (orientation: landscape) and (max-height: 600px) {
+/* =========================================================
+   MOBILE / TABLET FONT SCALING FIX
+   Prevent browsers from enlarging text in landscape mode.
+   ========================================================= */
 
-  html {
-    -webkit-text-size-adjust: 100% !important;
-    text-size-adjust: 100% !important;
-  }
+html,
+body {
+  -webkit-text-size-adjust: none !important;
+  -moz-text-size-adjust: none !important;
+  text-size-adjust: none !important;
+}
+
+/* =========================================================
+   EXTERNAL LINK ICON
+   Pure CSS — prevents mobile browsers from rendering
+   Unicode arrows as emoji.
+   ========================================================= */
+
+.externalLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.externalLinkIcon {
+  position: relative;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  flex: 0 0 11px;
+}
+
+/* Box */
+.externalLinkIcon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 7px;
+  height: 7px;
+  border: 1.5px solid currentColor;
+}
+
+/* Arrow */
+.externalLinkIcon::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px;
+  height: 6px;
+  border-top: 1.5px solid currentColor;
+  border-right: 1.5px solid currentColor;
+}
+
+/* Diagonal arrow stem */
+.externalLinkIcon {
+  background:
+    linear-gradient(
+      135deg,
+      transparent 43%,
+      currentColor 44%,
+      currentColor 55%,
+      transparent 56%
+    )
+    4px 0 / 7px 7px no-repeat;
 }
