@@ -320,58 +320,63 @@ a {
 
 
 /* =========================================================
-   EXTERNAL LINK ICON
-   Pure CSS. No Unicode arrow is used, preventing
-   iOS / Android from displaying an emoji.
+   EXTERNAL LINK
+   Minimal northeast arrow — no box and no Unicode/emoji.
    ========================================================= */
 
 .externalLink {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
+  width: fit-content;
 }
 
-.externalLinkIcon {
+/* Arrow container */
+
+.externalLinkArrow {
   position: relative;
   display: inline-block;
   width: 11px;
   height: 11px;
   flex: 0 0 11px;
-
-  background:
-    linear-gradient(
-      135deg,
-      transparent 43%,
-      currentColor 44%,
-      currentColor 55%,
-      transparent 56%
-    )
-    4px 0 / 7px 7px no-repeat;
+  transition: transform 0.18s ease;
 }
 
-/* External-link box */
+/* Diagonal shaft */
 
-.externalLinkIcon::before {
+.externalLinkArrow::before {
   content: "";
   position: absolute;
+  width: 11px;
+  height: 1.5px;
   left: 0;
-  bottom: 0;
-  width: 7px;
-  height: 7px;
-  border: 1.5px solid currentColor;
+  top: 5px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  transform-origin: center;
 }
 
-/* External-link arrow head */
+/* Arrow head */
 
-.externalLinkIcon::after {
+.externalLinkArrow::after {
   content: "";
   position: absolute;
+  width: 5px;
+  height: 5px;
   right: 0;
   top: 0;
-  width: 6px;
-  height: 6px;
   border-top: 1.5px solid currentColor;
   border-right: 1.5px solid currentColor;
+}
+
+/* Small movement makes the link feel interactive */
+
+.externalLink:hover .externalLinkArrow {
+  transform: translate(2px, -2px);
+}
+
+.externalLink:focus-visible .externalLinkArrow {
+  transform: translate(2px, -2px);
 }
 
 
