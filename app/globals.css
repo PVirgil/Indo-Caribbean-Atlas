@@ -347,10 +347,10 @@ a {
 .externalLinkArrow::before {
   content: "";
   position: absolute;
-  width: 12px;
+  width: 11px;
   height: 1.5px;
   left: 0;
-  top: 5px;
+  top: 4px;
   background: currentColor;
   transform: rotate(-45deg);
   transform-origin: center;
