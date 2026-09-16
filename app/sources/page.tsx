@@ -11,8 +11,8 @@ export default function Page() {
         <div className="ey">Evidence backbone</div>
         <h1>Source Registry</h1>
         <p className="lead">
-          Institutional archives and documentary-heritage authorities used to
-          structure and verify the Atlas.
+          Institutional preservation archives and cultural documentary-heritage authorities used to
+          structure and verify the preserved Atlas.
         </p>
       </header>
 
