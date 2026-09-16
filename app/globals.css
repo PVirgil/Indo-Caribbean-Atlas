@@ -6,4 +6,10 @@ html,body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .linkArrow{width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-right:4px}
 @media(max-width:850px){.menuButton{display:flex}.mobileMenu.open{display:block}.navin{min-height:64px}.brand{font-size:14px}}
 @media(max-width:420px){.shell{padding-left:18px;padding-right:18px}.brand{font-size:12px}.menuButton{padding:9px 10px;font-size:11px}}
-@media(orientation:landscape) and (max-height:600px){html,body{-webkit-text-size-adjust:100% !important;text-size-adjust:100% !important;}}
+@media screen and (orientation: landscape) and (max-height: 600px) {
+
+  html {
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+  }
+}
