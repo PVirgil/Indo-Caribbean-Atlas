@@ -11,8 +11,6 @@
 
 html {
   scroll-behavior: smooth;
-  -webkit-text-size-adjust: none !important;
-  text-size-adjust: none !important;
 }
 
 body {
@@ -20,8 +18,6 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Georgia, serif;
-  -webkit-text-size-adjust: none !important;
-  text-size-adjust: none !important;
 }
 
 
