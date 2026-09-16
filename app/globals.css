@@ -347,7 +347,7 @@ a {
 .externalLinkArrow::before {
   content: "";
   position: absolute;
-  width: 11px;
+  width: 12px;
   height: 1.5px;
   left: 0;
   top: 4px;
