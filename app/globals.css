@@ -347,8 +347,8 @@ a {
 .externalLinkArrow::before {
   content: "";
   position: absolute;
-  width: 11px;
-  height: 1.7px;
+  width: 12px;
+  height: 1.5px;
   left: 0;
   top: 5px;
   background: currentColor;
@@ -365,8 +365,8 @@ a {
   height: 5px;
   right: 0;
   top: 0;
-  border-top: 1.7px solid currentColor;
-  border-right: 1.7px solid currentColor;
+  border-top: 1.5px solid currentColor;
+  border-right: 1.5px solid currentColor;
 }
 
 /* Small movement makes the link feel interactive */
