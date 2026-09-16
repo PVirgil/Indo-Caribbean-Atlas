@@ -643,3 +643,343 @@ th {
     font-size: 14px;
   }
 }
+
+
+/* =========================================================
+   MOBILE LANDSCAPE — COMPLETE TYPOGRAPHY LOCK
+   =========================================================
+   
+   Explicitly sizes every typography category used by the
+   Indo-Caribbean Atlas when viewed on a phone in landscape.
+
+   max-height is used intentionally because modern phones
+   can have viewport widths of 800–950+ px in landscape.
+   ========================================================= */
+
+@media screen and (orientation: landscape) and (max-height: 600px) {
+
+  /* -------------------------------------------------------
+     DISABLE BROWSER TEXT AUTOSIZING
+     ------------------------------------------------------- */
+
+  html {
+    -webkit-text-size-adjust: none !important;
+    text-size-adjust: none !important;
+  }
+
+  body {
+    font-size: 16px !important;
+    -webkit-text-size-adjust: none !important;
+    text-size-adjust: none !important;
+  }
+
+
+  /* -------------------------------------------------------
+     BRAND / SITE TITLE
+     ------------------------------------------------------- */
+
+  .brand {
+    font-size: 14px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     DESKTOP NAVIGATION LINKS
+     Usually hidden in mobile landscape, but explicitly
+     locked anyway.
+     ------------------------------------------------------- */
+
+  .links {
+    font-size: 13px !important;
+  }
+
+  .links a {
+    font-size: 13px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     MOBILE MENU BUTTON
+     ------------------------------------------------------- */
+
+  .menuButton {
+    font-size: 12px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     MOBILE MENU LINKS
+     ------------------------------------------------------- */
+
+  .mobileMenuInner {
+    font-size: 14px !important;
+  }
+
+  .mobileMenuInner a {
+    font-size: 14px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     HERO H1
+     Portrait/mobile equivalent is locked at 54px.
+     This prevents 8.5vw from making it larger when the
+     viewport becomes wider in landscape.
+     ------------------------------------------------------- */
+
+  .hero h1 {
+    font-size: 54px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     NORMAL PAGE H1
+     ------------------------------------------------------- */
+
+  .pagehead h1 {
+    font-size: 40px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     SECTION H2
+     ------------------------------------------------------- */
+
+  .section h2 {
+    font-size: 40px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     H3 / CARD HEADINGS
+     ------------------------------------------------------- */
+
+  .card h3 {
+    font-size: 23px !important;
+  }
+
+  h3 {
+    font-size: 23px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     EYEBROWS
+     ------------------------------------------------------- */
+
+  .ey {
+    font-size: 11px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     LEAD / INTRODUCTORY TEXT
+     ------------------------------------------------------- */
+
+  .lead {
+    font-size: 21px !important;
+  }
+
+  .banner .lead {
+    font-size: 21px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     STANDARD BODY TEXT
+     Explicitly lock elements that otherwise inherit the
+     browser's default body size.
+     ------------------------------------------------------- */
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .card p {
+    font-size: 16px !important;
+  }
+
+  .prose {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     NOTICES
+     ------------------------------------------------------- */
+
+  .notice {
+    font-size: 16px !important;
+  }
+
+  .notice p {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     BANNERS
+     ------------------------------------------------------- */
+
+  .banner {
+    font-size: 16px !important;
+  }
+
+  .banner p {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     SOURCE SECTIONS
+     ------------------------------------------------------- */
+
+  .source {
+    font-size: 16px !important;
+  }
+
+  .source p {
+    font-size: 16px !important;
+  }
+
+  .source a {
+    font-size: inherit !important;
+  }
+
+
+  /* -------------------------------------------------------
+     GENERAL LINKS
+
+     Do NOT globally force every <a> to 16px because that
+     would overwrite nav/button typography.
+     ------------------------------------------------------- */
+
+  .link {
+    font-size: inherit !important;
+  }
+
+  .externalLink {
+    font-size: inherit !important;
+  }
+
+
+  /* -------------------------------------------------------
+     TAGS
+     ------------------------------------------------------- */
+
+  .tag {
+    font-size: 10px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     PILLS
+     ------------------------------------------------------- */
+
+  .pill {
+    font-size: 10px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     BUTTONS
+     ------------------------------------------------------- */
+
+  .btn {
+    font-size: 13px !important;
+  }
+
+  a.btn {
+    font-size: 13px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     METRICS
+     ------------------------------------------------------- */
+
+  .metric {
+    font-size: 42px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     SMALL TEXT
+     ------------------------------------------------------- */
+
+  .small {
+    font-size: 13px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     SEARCH INPUT
+     ------------------------------------------------------- */
+
+  .search {
+    font-size: 16px !important;
+  }
+
+  input.search {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     TABLE HEADERS
+     ------------------------------------------------------- */
+
+  th {
+    font-size: 10px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     TABLE CELLS
+     ------------------------------------------------------- */
+
+  td {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     FOOTER
+     ------------------------------------------------------- */
+
+  .footer {
+    font-size: 16px !important;
+  }
+
+  .footer p {
+    font-size: 16px !important;
+  }
+
+  .footer .small {
+    font-size: 13px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     LISTS
+     These otherwise inherit body/browser sizing.
+     ------------------------------------------------------- */
+
+  ul,
+  ol,
+  li {
+    font-size: 16px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     OTHER STANDARD TEXT ELEMENTS
+     Defensive coverage for text that may be added later.
+     ------------------------------------------------------- */
+
+  blockquote,
+  figcaption,
+  label {
+    font-size: 16px !important;
+  }
+}
